@@ -1,0 +1,168 @@
+html {
+    font-family: "Fira Sans",sans-serif!important;
+}
+
+.container {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.appHeader {
+    height: 1000px;
+    text-align: center;
+    background-color: #F6F6F6;
+    font-family: "Fira Sans",sans-serif!important;
+    color: #435065;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1100px;
+    max-height: 75px;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 1100px;
+    max-height: 75px;
+}
+
+.right img {
+    filter: invert(15%) sepia(4%) saturate(8%) hue-rotate(341deg) brightness(94%) contrast(83%);
+}
+
+.nanoLogo {
+    width: 150px;
+}
+
+.menuOptions {
+    height: 22px;
+    padding-right: 35px;
+    font-family: "Fira Sans",sans-serif!important;
+    font-size: 13px;
+    color: #3a3a3a;
+    position: fixed;
+}
+
+.appidSearchBox {
+    background-color: #F6F6F6;
+    border: 0;
+    height: 25px;
+    width: 400px;
+    margin-left: 15px;
+    border-radius: 4px 0 0 4px;
+    padding-left: 10px;
+    background-image: url("sliders-solid (1).svg");
+    background-position: 230px 7px;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    font-family: "Fira Sans",sans-serif!important;
+    font-size: 12px;
+}
+
+.appidSearchButton {
+    height: 27px;
+    background-color: #0064ff;
+    border: 0;
+    font-weight: bold;
+    color: white;
+    width: 50px;
+    border-radius: 0 4px 4px 0;
+    background-image: url("magnifying-glass-solid.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.headerTabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+
+
+/* Hamburger Menu */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(190, 190, 190);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+    
+    .sidebar div {
+    padding: 8px 8px 8px 30px;
+    font-size: 19px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+    line-height: 10px;
+    }
+
+.section {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        }
+
+    .sidebar .menuHeader {
+    position: fixed;
+    top: 0;
+    line-height: 0;
+    }
+    
+    .sidebar .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    }
+    
+    .openbtn {
+    font-size: 24px;
+    cursor: pointer;
+    width: 25px;
+    padding-left: 15px;
+    }
+    
+    #main {
+    transition: margin-left .5s;
+    }
+    
+.content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+.active, .section:hover {
+        background-color: #ccc;
+      }
+/* -------------------- */
