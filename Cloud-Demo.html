@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="myscripts.js"></script>
+    <link href="2.0.css" type="text/css" rel="stylesheet" />
+    <div class="container">
+        <div class="center">
+            <img src="nano-logo.png" class="nanoLogo">
+        </div>
+    </div>
+</head>
+
+<body>
+    <div class="mainDivs" style="margin-top: 7%;">
+        <h2 style="color: rgb(96, 96, 96);">Environments</h2>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Cloud Demo</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="Cloud-Test.html">Cloud Test</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="statusDiv">
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">API</h2>
+            </div>
+            <iframe src="https://api-demo-azure.nanolos.com/deployed-version.txt" title="description"></iframe>
+        </div>
+
+        <hr>
+
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">Flux</h2>
+            </div>
+            <iframe src="https://spa-demo-azure.nanolos.com/flux/deployed-version.txt" title="description"></iframe>
+        </div>
+
+        <hr>
+
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">Loan Application</h2>
+        </div>
+            <iframe src="https://spa-demo-azure.nanolos.com/loan-application/deployed-version.txt" title="description"></iframe>
+        </div>
+
+        <hr>
+
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">My Account</h2>
+        </div>
+            <iframe src="https://spa-demo-azure.nanolos.com/my-account/deployed-version.txt" title="description"></iframe>
+        </div>
+
+        <hr>
+
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">System Settings</h2>
+        </div>
+            <iframe src="https://spa-demo-azure.nanolos.com/system-settings/deployed-version.txt" title="description"></iframe>
+        </div>
+
+        <hr>
+
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">Instant Quote</h2>
+            </div>
+            <iframe src="https://spa-demo-azure.nanolos.com/instant-quote/deployed-version.txt" title="description"></iframe>
+        </div>
+
+<hr>
+
+        <div class="mainDivs">
+            <div class="labelDiv">
+            <h2 class="applicationLables">Rate Tracker</h2>
+            </div>
+            <iframe src="https://spa-demo-azure.nanolos.com/rate-tracker/deployed-version.txt" title="description"></iframe>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</html>
+
+
